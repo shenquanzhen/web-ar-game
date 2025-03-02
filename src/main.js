@@ -1,6 +1,7 @@
-import * as THREE from 'three';
-// 注意：AR.js在浏览器中通过脚本标签加载，不需要通过import导入
-// 我们需要在HTML中添加相关脚本
+// 不再导入Three.js，因为我们已经在HTML中通过CDN加载了
+// import * as THREE from 'three';
+// 注意：AR.js和Three.js都在浏览器中通过脚本标签加载
+// 确保在HTML中按正确顺序添加相关脚本
 
 let camera, scene, renderer;
 let arToolkitSource, arToolkitContext;

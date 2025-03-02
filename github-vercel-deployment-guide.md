@@ -26,7 +26,7 @@
 git init
 
 # 添加远程仓库
-git remote add origin https://github.com/你的用户名/web-ar-game.git
+git remote add origin https://github.com/shenquanzhen/web-ar-game.git
 
 # 添加所有文件到暂存区
 git add .
